@@ -1,0 +1,108 @@
+body {
+  min-width: 980px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+
+/* Main components */
+.main {
+  text-align: center;
+  min-height: 100%;
+}
+
+header {
+  width: 100%;
+  line-height: 32px;
+  position: relative;
+  top: 10px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  line-height: 40px;
+}
+
+
+/* Specific rules for each elements */
+
+/* The logo */
+#logo {
+  padding: 100px 0 20px;
+}
+
+#logo img {
+  width: 272px;
+  height: 92px;
+}
+
+
+/* The search box */
+.main-form  input {
+  height: 36px;
+  width: 540px;
+  line-height: 27px;
+  margin-bottom: 25px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+/* Submit button for seach */
+
+.buttons {
+  margin: 0 0 20px 0;
+}
+
+
+.main-form button {
+  padding: 10px 20px;
+  margin: 0 2px;
+  background-color: #f1f1f1;
+  font-weight: 700;
+  border: none;
+}
+
+footer a, button {
+  color: #666;
+}
+
+header a {
+  color: rgba(0,0,0,0.87);
+}
+
+a {
+  padding: 0 3px;
+  text-decoration: none;
+}
+footer a, header a {
+  padding: 0 0 0 27px;
+}
+
+#footer-right {
+  float: right;
+  margin-right: 27px;
+}
+
+#fbar {
+  min-width: 980px;
+  bottom: 0;
+}
+
+#hbar {
+
+}
+
+#photo-logo {
+  width: 32px;
+  height: 32px;
+  float: right;
+  background-image: url(/img/photo.jpg);
+  background-size: 32px;
+  background-clip: border-box;
+  border-radius: 16px;
+  margin-right: 27px;
+}
+
