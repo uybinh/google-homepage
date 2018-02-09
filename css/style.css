@@ -99,7 +99,7 @@ footer a, header a {
   width: 32px;
   height: 32px;
   float: right;
-  background-image: url(/img/photo.jpg);
+  background: bisque url(/img/photo.jpg);
   background-size: 32px;
   background-clip: border-box;
   border-radius: 16px;
